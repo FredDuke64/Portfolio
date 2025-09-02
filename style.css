@@ -15,11 +15,11 @@ header {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 section {
@@ -35,4 +35,5 @@ footer {
   background: #333;
   color: white;
 }
+
 
