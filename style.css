@@ -15,11 +15,16 @@ header {
 }
 
 .profile-pic {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 20px;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.2);
 }
 
 section {
